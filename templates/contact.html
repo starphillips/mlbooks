@@ -16,9 +16,8 @@
 
     <script>
         const MY_TOKEN = "pk.eyJ1Ijoic3RhcnBoaWxsaXBzIiwiYSI6ImNsdHljbzB6cjBjcW8yam9qMjJpeXdtMDMifQ.313hpJO610hqpggFJCYoyg";
-
-
     </script>
+
 </head>
 
 <body class="no-sidebar is-preload">
@@ -142,22 +141,20 @@
 
                             <script>
 
-                                // Default coordinates (Hemel Hempstead, UK)
                                 var defaultLat = 51.760337;
                                 var defaultLon = -0.456655;
 
-                                // Initialize the map
                                 mapboxgl.accessToken = MY_TOKEN;
                                 var map = new mapboxgl.Map({
-                                    container: 'map', // container ID
-                                    center: [defaultLon, defaultLat], // longitude, latitude
-                                    zoom: 14 // zoom level
+                                    container: 'map',
+                                    center: [defaultLon, defaultLat],
+                                    zoom: 14
                                 });
 
                                 // Create marker and add it to the map
                                 map.on('load', function () {
                                     var marker = new mapboxgl.Marker()
-                                        .setLngLat([defaultLon, defaultLat]) // Set marker to the default coordinates
+                                        .setLngLat([defaultLon, defaultLat]) // Set marker to the coordinates
                                         .addTo(map);
                                 });
                             </script>
