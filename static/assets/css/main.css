@@ -1784,7 +1784,7 @@ input[type="submit"].style1,
 input[type="reset"].style1,
 button.style1,
 .button.style1 {
-	background: #b4dea3 url("images/overlay.png");
+	background: #7ed35c url("images/overlay.png");
 	color: #fff;
 }
 
@@ -1962,7 +1962,7 @@ ul.actions.special {
 }
 
 .feature-list h3 {
-	color: #b4dea3 !important;
+	color: #7ed35c !important;
 	margin: -0.35em 0 0.75em 0;
 	font-size: 1.15em;
 	letter-spacing: 0.05em;
@@ -2115,13 +2115,13 @@ ul.actions.special {
 }
 
 .wrapper.style1 {
-	background: #b4dea3 url("images/overlay.png");
+	background: #7ed35c url("images/overlay.png");
 	color: #eee;
 	color: rgba(255, 255, 255, 0.75);
 }
 
 .wrapper.style1 .title {
-	background: #b4dea3 url("images/overlay.png");
+	background: #7ed35c url("images/overlay.png");
 	color: #fff;
 }
 
