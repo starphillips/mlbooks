@@ -3140,6 +3140,12 @@ ul.actions.special {
 
 }
 
+#map {
+	height: 400px;
+	width: 100%;
+	margin-top: 20px;
+}
+
 html {
 	scroll-behavior: smooth;
 }
